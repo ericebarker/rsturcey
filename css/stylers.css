@@ -124,6 +124,10 @@ div#header {
     .verticalLine {
         display: none;
     }
+    img.floatLeft,
+    img.floatRight {
+        max-width: 93%;
+    }
 }
 
 div#nav {
