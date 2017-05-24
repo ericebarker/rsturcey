@@ -114,22 +114,6 @@ div#header {
     -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.75);
 }
 
-@media (max-width:500px) {
-    div#header {
-        padding-left: 5px;
-        padding-right: 5px;
-        width: 90%;
-        height: auto;
-    }
-    .verticalLine {
-        display: none;
-    }
-    img.floatLeft,
-    img.floatRight {
-        max-width: 93%;
-    }
-}
-
 div#nav {
     width: 25%;
     padding: 10px;
@@ -270,4 +254,20 @@ td {
     /* color: #333333;
   background-color: #ffffff;  test comment out css to eliminate whitespace*/
     vertical-align: text-top;
+}
+
+@media (max-width:500px) {
+    div#header {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 90%;
+        height: auto;
+    }
+    .verticalLine {
+        display: none;
+    }
+    img.floatLeft,
+    img.floatRight {
+        max-width: 93%;
+    }
 }
